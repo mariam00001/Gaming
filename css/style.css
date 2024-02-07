@@ -1,0 +1,25 @@
+body{
+    background-color: #1E202B;
+}
+.navbar{
+    background-color: #3A497B;
+    margin-top: 8rem;
+    border-radius: 20px;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #029ED9;
+}
+.nav-link{
+    transition: all 0.1s;
+}
+.nav-link:hover{
+    color: #029ED9;
+}
+.card{
+    
+    background-color: #272B30;
+    color: white;
+}
+.logo i{
+    color: rgb(151, 151, 151);
+}

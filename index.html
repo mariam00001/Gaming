@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya&family=Amatic+SC:wght@400;700&family=Dancing+Script&family=Montserrat:wght@100;400;500;600;800&family=Pacifico&family=Poppins:wght@400;700&family=Righteous&family=Roboto:wght@100;300;400&family=Source+Sans+3:wght@300;400;700&family=Tajawal&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary w-75 mx-auto navbar-dark py-3">
+    <div class="container">
+      <div class="logo d-flex align-items-center">
+        <i class="fa-brands fa-fantasy-flight-games fs-2 me-2"></i>
+        <a class="navbar-brand" href="#"> GAME REVIEWS
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item px-2">
+            <a class="nav-link active px-1 py-0" aria-current="page" onclick="getGames('mmorpg')" href="#mmorpg">MMORPG</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white px-1 py-0" aria-current="page" onclick="getGames('shooter')" href="#shooter">SHOOTER</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white px-1 py-0" aria-current="page" onclick="getGames('sailing')" href="#sailing">SAILING</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white px-1 py-0" aria-current="page" onclick="getGames('permadeath')" href="#permadeath">PERMADEATH</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white px-1 py-0" aria-current="page" onclick="getGames('superhero')" href="#superhero">SUPERHERO</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white px-1 py-0" aria-current="page" onclick="getGames('pixel')" href="#pixel">PIXEL</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <div class="container">
+     <div class="row" id="games">
+     </div>
+    </div>
+    
+    <div class="container details d-none ">
+      <div class="row" id="details">
+       
+      </div>
+    </div>
+
+  </section>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/game-details.js"></script>
+</body>
+</html>
